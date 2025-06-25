@@ -1,0 +1,36 @@
+# Bảo mật & file cấu hình
+.env
+.env.*
+*.secret
+credentials.json
+token.json
+
+# File biên dịch & cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Thư viện môi trường ảo
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook (nếu có)
+.ipynb_checkpoints/
+
+# File hệ thống
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# File build / frontend (nếu có)
+node_modules/
+dist/
+build/
