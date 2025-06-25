@@ -1,0 +1,20 @@
+# .dockerignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.env
+.env.*
+auth.json
+*.log
+*.sqlite
+*.sqlite3
+*.zip
+*.tar.gz
+*.egg-info/
+.venv/
+.mypy_cache/
+.cache/
+.idea/
+.vscode/
