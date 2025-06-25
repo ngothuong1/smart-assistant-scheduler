@@ -1,6 +1,8 @@
 # Bảo mật & file cấu hình
 .env
-.env.*
+.env.local
+.env.production
+!.env.example
 *.secret
 credentials.json
 token.json
